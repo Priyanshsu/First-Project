@@ -99,3 +99,62 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
+
+/* Error page */
+.error-page{
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+    padding: 3rem 1rem;
+}
+.error-card{
+    width: min(100%, 34rem);
+    padding: clamp(2rem, 6vw, 3.5rem);
+    border: 1px solid #f1d5d7;
+    border-radius: 1.25rem;
+    background: linear-gradient(145deg, #fff 55%, #fff6f6);
+    box-shadow: 0 1rem 3rem rgba(34, 34, 34, 0.08);
+    text-align: center;
+}
+.error-icon{
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    margin: 0 auto 1.25rem;
+    border-radius: 50%;
+    background: #fff0f1;
+    color: #fe424d;
+    font-size: 1.6rem;
+}
+.error-eyebrow{
+    margin-bottom: 0.5rem;
+    color: #fe424d;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.error-title{
+    margin: 0;
+    color: #222;
+    font-size: clamp(2rem, 7vw, 3rem);
+    font-weight: 800;
+}
+.error-message{
+    margin: 1rem 0 1.75rem;
+    color: #686868;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+.error-home-btn{
+    padding: 0.75rem 1.25rem !important;
+    border: 0 !important;
+    border-radius: 0.65rem !important;
+    background: #fe424d !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+.error-home-btn:hover{
+    background: #e93642 !important;
+}
